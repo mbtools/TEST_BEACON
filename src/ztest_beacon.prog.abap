@@ -6,12 +6,23 @@ report = 'TEST'.
 CLASS lcl_test DEFINITION.
   PUBLIC SECTION.
     CLASS-METHODS test.
+    CLASS-METHODS test2.
 ENDCLASS.
 
 CLASS lcl_test IMPLEMENTATION.
   METHOD test.
     DATA method TYPE i.
     method = 10.
+    "
+    "
+    "
+    "
+    "
+    "
+    "
+  ENDMETHOD.
+
+  METHOD test2.
   ENDMETHOD.
 ENDCLASS.
 
